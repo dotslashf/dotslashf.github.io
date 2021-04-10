@@ -12,7 +12,7 @@ function Header() {
         className="flex items-center justify-center"
         onClick={() => setIsClick(!isClick)}
       >
-        <h1 className="bg-bone  rounded-full px-4 py-2 text-xl mb-2 font-black text-fire transition  hover:text-bone hover:bg-fire">
+        <h1 className="cursor-pointer rounded-full bg-primary px-4 py-1 text-xl mb-2 font-black text-primary  transition hover:text-secondary hover:bg-secondary">
           ./f
         </h1>
       </div>

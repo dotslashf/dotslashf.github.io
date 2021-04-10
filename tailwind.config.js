@@ -5,16 +5,25 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {
-        bone: '#f7f3e9',
-        sky: '#a3d2ca',
-        'sky-darker': '#5eaaa8',
-        fire: '#f05945',
+      backgroundColor: {
+        primary: 'var(--color-bg-primary)',
+        secondary: 'var(--color-bg-secondary)',
+        accent: 'var(--color-bg-accent)',
+      },
+      textColor: {
+        accent: 'var(--color-text-accent)',
+        primary: 'var(--color-text-primary)',
+        secondary: 'var(--color-text-secondary)',
       },
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
     },
+    gradientColorStops: theme => ({
+      ...theme('colors'),
+      primary: 'var(--color-bg-primary)',
+      secondary: 'var(--color-bg-secondary)',
+    }),
   },
   variants: {
     extend: {},

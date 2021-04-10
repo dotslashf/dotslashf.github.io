@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden bg-bone">
+    <div className="flex flex-col min-h-screen overflow-hidden bg-primary">
       <Header />
       <Hero />
     </div>
