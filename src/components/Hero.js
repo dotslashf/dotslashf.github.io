@@ -27,7 +27,7 @@ function Hero() {
       <p className="mt-6 text-lg text-center text-primary break-words px-8">
         your friendly neighborhood
         <br className="lg:hidden" />
-        <span className="px-1 py-1 ml-1 text-secondary bg-accent font-bold transition hover:text-accent hover:bg-primary">
+        <span className="px-1 py-1 ml-1 text-secondary bg-secondary font-bold transition hover:text-accent hover:bg-primary">
           web developer 🕸️ 💻
         </span>
       </p>
