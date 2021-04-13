@@ -7,12 +7,12 @@ function Header() {
   const [isClick, setIsClick] = useState(false);
 
   return (
-    <header className="fixed py-6 px-6">
+    <header className="fixed pb-6 px-6">
       <div
         className="flex items-center justify-center"
         onClick={() => setIsClick(!isClick)}
       >
-        <h1 className="cursor-pointer rounded-full bg-primary px-4 py-1 text-xl mb-2 font-black text-primary  transition hover:text-secondary hover:bg-secondary">
+        <h1 className="cursor-pointer rounded-t-none rounded-xl bg-primary px-4 py-1 text-xl mb-2 font-black text-primary  transition hover:text-secondary hover:bg-secondary">
           ./f
         </h1>
       </div>
